@@ -1,0 +1,6 @@
+@import "./common.scss"; // 通用样式
+@import "./extend.scss"; //扩展样式，此样式全局通用
+@import './../../node_modules/iview/dist/styles/iview.css'; // 引入iview css样式
+$menu-dark-title: pink;
+$menu-dark-active-bg: #000c17;
+$layout-sider-background: #001529;

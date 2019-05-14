@@ -1,0 +1,19 @@
+//扩展样式，此样式全局通用
+// 首页去除样式（登录退出的图标）
+.v-transfer-dom {
+  .ivu-modal-body{
+     .ivu-icon{
+         display: none;
+     }
+  }
+}
+//路由跳转进度条颜色
+#nprogress .bar {
+  background: pink; 
+}
+// 侧边栏二级菜单选中样式
+// .ivu-menu-dark.ivu-menu-vertical .ivu-menu-opened .ivu-menu-submenu-title,
+// .ivu-menu-dark.ivu-menu-vertical .ivu-menu-item:hover,
+// .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu-title:hover {
+//     background: #001529;
+// }
